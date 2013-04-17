@@ -28,10 +28,6 @@ import java.io.InputStreamReader;
 @RunWith(Arquillian.class)
 public class SorterTestCase {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(SorterTestCase.class);
-    private static final String PATH_TO_SEARCH_REQUEST = "/json/search_request.json";
-    private static final String PATH_TO_HOTELS = "/json/hotels_49.json";
-
     @Inject
     Sorter sorter;
 
